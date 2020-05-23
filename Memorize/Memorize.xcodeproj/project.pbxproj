@@ -7,27 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83258E642477695500722F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83258E632477695500722F18 /* AppDelegate.swift */; };
-		83258E662477695500722F18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83258E652477695500722F18 /* SceneDelegate.swift */; };
-		83258E682477695500722F18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83258E672477695500722F18 /* ContentView.swift */; };
-		83258E6A2477695700722F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83258E692477695700722F18 /* Assets.xcassets */; };
-		83258E6D2477695700722F18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83258E6C2477695700722F18 /* Preview Assets.xcassets */; };
-		83258E702477695700722F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83258E6E2477695700722F18 /* LaunchScreen.storyboard */; };
+		83258E8A2478A76700722F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83258E892478A76700722F18 /* AppDelegate.swift */; };
+		83258E8C2478A76700722F18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83258E8B2478A76700722F18 /* SceneDelegate.swift */; };
+		83258E8E2478A76700722F18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83258E8D2478A76700722F18 /* ContentView.swift */; };
+		83258E902478A76A00722F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83258E8F2478A76A00722F18 /* Assets.xcassets */; };
+		83258E932478A76A00722F18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83258E922478A76A00722F18 /* Preview Assets.xcassets */; };
+		83258E962478A76A00722F18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83258E942478A76A00722F18 /* LaunchScreen.storyboard */; };
+		83258E9E2478A79F00722F18 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83258E9D2478A79F00722F18 /* MemoryGame.swift */; };
+		83258EA02478AA3200722F18 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83258E9F2478AA3200722F18 /* EmojiMemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		83258E602477695500722F18 /* lecture-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lecture-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		83258E632477695500722F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83258E652477695500722F18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		83258E672477695500722F18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		83258E692477695700722F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		83258E6C2477695700722F18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		83258E6F2477695700722F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		83258E712477695700722F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83258E862478A76700722F18 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83258E892478A76700722F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83258E8B2478A76700722F18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		83258E8D2478A76700722F18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		83258E8F2478A76A00722F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83258E922478A76A00722F18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83258E952478A76A00722F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83258E972478A76A00722F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83258E9D2478A79F00722F18 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		83258E9F2478AA3200722F18 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		83258E5D2477695500722F18 /* Frameworks */ = {
+		83258E832478A76700722F18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,40 +41,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		83258E572477695500722F18 = {
+		83258E7D2478A76700722F18 = {
 			isa = PBXGroup;
 			children = (
-				83258E622477695500722F18 /* lecture-1 */,
-				83258E612477695500722F18 /* Products */,
+				83258E882478A76700722F18 /* Memorize */,
+				83258E872478A76700722F18 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		83258E612477695500722F18 /* Products */ = {
+		83258E872478A76700722F18 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83258E602477695500722F18 /* lecture-1.app */,
+				83258E862478A76700722F18 /* Memorize.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		83258E622477695500722F18 /* lecture-1 */ = {
+		83258E882478A76700722F18 /* Memorize */ = {
 			isa = PBXGroup;
 			children = (
-				83258E632477695500722F18 /* AppDelegate.swift */,
-				83258E652477695500722F18 /* SceneDelegate.swift */,
-				83258E672477695500722F18 /* ContentView.swift */,
-				83258E692477695700722F18 /* Assets.xcassets */,
-				83258E6E2477695700722F18 /* LaunchScreen.storyboard */,
-				83258E712477695700722F18 /* Info.plist */,
-				83258E6B2477695700722F18 /* Preview Content */,
+				83258E9D2478A79F00722F18 /* MemoryGame.swift */,
+				83258E892478A76700722F18 /* AppDelegate.swift */,
+				83258E9F2478AA3200722F18 /* EmojiMemoryGame.swift */,
+				83258E8B2478A76700722F18 /* SceneDelegate.swift */,
+				83258E8D2478A76700722F18 /* ContentView.swift */,
+				83258E8F2478A76A00722F18 /* Assets.xcassets */,
+				83258E942478A76A00722F18 /* LaunchScreen.storyboard */,
+				83258E972478A76A00722F18 /* Info.plist */,
+				83258E912478A76A00722F18 /* Preview Content */,
 			);
-			path = "lecture-1";
+			path = Memorize;
 			sourceTree = "<group>";
 		};
-		83258E6B2477695700722F18 /* Preview Content */ = {
+		83258E912478A76A00722F18 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				83258E6C2477695700722F18 /* Preview Assets.xcassets */,
+				83258E922478A76A00722F18 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -78,39 +84,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83258E5F2477695500722F18 /* lecture-1 */ = {
+		83258E852478A76700722F18 /* Memorize */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83258E742477695700722F18 /* Build configuration list for PBXNativeTarget "lecture-1" */;
+			buildConfigurationList = 83258E9A2478A76A00722F18 /* Build configuration list for PBXNativeTarget "Memorize" */;
 			buildPhases = (
-				83258E5C2477695500722F18 /* Sources */,
-				83258E5D2477695500722F18 /* Frameworks */,
-				83258E5E2477695500722F18 /* Resources */,
+				83258E822478A76700722F18 /* Sources */,
+				83258E832478A76700722F18 /* Frameworks */,
+				83258E842478A76700722F18 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "lecture-1";
-			productName = "lecture-1";
-			productReference = 83258E602477695500722F18 /* lecture-1.app */;
+			name = Memorize;
+			productName = Memorize;
+			productReference = 83258E862478A76700722F18 /* Memorize.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		83258E582477695500722F18 /* Project object */ = {
+		83258E7E2478A76700722F18 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Tieda Wei";
 				TargetAttributes = {
-					83258E5F2477695500722F18 = {
+					83258E852478A76700722F18 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 83258E5B2477695500722F18 /* Build configuration list for PBXProject "lecture-1" */;
+			buildConfigurationList = 83258E812478A76700722F18 /* Build configuration list for PBXProject "Memorize" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,47 +124,49 @@
 				en,
 				Base,
 			);
-			mainGroup = 83258E572477695500722F18;
-			productRefGroup = 83258E612477695500722F18 /* Products */;
+			mainGroup = 83258E7D2478A76700722F18;
+			productRefGroup = 83258E872478A76700722F18 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83258E5F2477695500722F18 /* lecture-1 */,
+				83258E852478A76700722F18 /* Memorize */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		83258E5E2477695500722F18 /* Resources */ = {
+		83258E842478A76700722F18 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83258E702477695700722F18 /* LaunchScreen.storyboard in Resources */,
-				83258E6D2477695700722F18 /* Preview Assets.xcassets in Resources */,
-				83258E6A2477695700722F18 /* Assets.xcassets in Resources */,
+				83258E962478A76A00722F18 /* LaunchScreen.storyboard in Resources */,
+				83258E932478A76A00722F18 /* Preview Assets.xcassets in Resources */,
+				83258E902478A76A00722F18 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		83258E5C2477695500722F18 /* Sources */ = {
+		83258E822478A76700722F18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83258E642477695500722F18 /* AppDelegate.swift in Sources */,
-				83258E662477695500722F18 /* SceneDelegate.swift in Sources */,
-				83258E682477695500722F18 /* ContentView.swift in Sources */,
+				83258E8A2478A76700722F18 /* AppDelegate.swift in Sources */,
+				83258E8C2478A76700722F18 /* SceneDelegate.swift in Sources */,
+				83258E9E2478A79F00722F18 /* MemoryGame.swift in Sources */,
+				83258E8E2478A76700722F18 /* ContentView.swift in Sources */,
+				83258EA02478AA3200722F18 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		83258E6E2477695700722F18 /* LaunchScreen.storyboard */ = {
+		83258E942478A76A00722F18 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				83258E6F2477695700722F18 /* Base */,
+				83258E952478A76A00722F18 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +174,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		83258E722477695700722F18 /* Debug */ = {
+		83258E982478A76A00722F18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		83258E732477695700722F18 /* Release */ = {
+		83258E992478A76A00722F18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,40 +288,40 @@
 			};
 			name = Release;
 		};
-		83258E752477695700722F18 /* Debug */ = {
+		83258E9B2478A76A00722F18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"lecture-1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
 				DEVELOPMENT_TEAM = T64RAU2S7P;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "lecture-1/Info.plist";
+				INFOPLIST_FILE = Memorize/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tiedawei.lecture-1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiedawei.Memorize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		83258E762477695700722F18 /* Release */ = {
+		83258E9C2478A76A00722F18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"lecture-1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
 				DEVELOPMENT_TEAM = T64RAU2S7P;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "lecture-1/Info.plist";
+				INFOPLIST_FILE = Memorize/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tiedawei.lecture-1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiedawei.Memorize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,25 +331,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83258E5B2477695500722F18 /* Build configuration list for PBXProject "lecture-1" */ = {
+		83258E812478A76700722F18 /* Build configuration list for PBXProject "Memorize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83258E722477695700722F18 /* Debug */,
-				83258E732477695700722F18 /* Release */,
+				83258E982478A76A00722F18 /* Debug */,
+				83258E992478A76A00722F18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83258E742477695700722F18 /* Build configuration list for PBXNativeTarget "lecture-1" */ = {
+		83258E9A2478A76A00722F18 /* Build configuration list for PBXNativeTarget "Memorize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83258E752477695700722F18 /* Debug */,
-				83258E762477695700722F18 /* Release */,
+				83258E9B2478A76A00722F18 /* Debug */,
+				83258E9C2478A76A00722F18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 83258E582477695500722F18 /* Project object */;
+	rootObject = 83258E7E2478A76700722F18 /* Project object */;
 }
