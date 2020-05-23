@@ -8,6 +8,6 @@
 
 [Video](https://youtu.be/4GjXq2Sr55Q)
 
-[Reading 1](./Readings/r1.pdf)
+[Reading 1](./documents/Readings/r1.pdf)
 
-[Assignment 1](./Assignments/a1.pdf)
+[Assignment 1](./documents/Assignments/a1.pdf)
