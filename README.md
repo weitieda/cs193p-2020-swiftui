@@ -1,6 +1,6 @@
 # Stanford CS193p Spring 2020 (SwiftUI)
 
-![image](header.jpg)
+![image](header.png)
 
 ## Lecture 1: Course Logistics and Intro to SwiftUI
 
