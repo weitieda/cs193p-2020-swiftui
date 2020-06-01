@@ -22,11 +22,19 @@
 
 [Video](https://youtu.be/SIYdYpPXil4)
 
+-   [Protocols](https://youtu.be/SIYdYpPXil4?t=2065)
+-   [Protocols and Generics](https://youtu.be/SIYdYpPXil4?t=2694)
+-   [Layout](https://youtu.be/SIYdYpPXil4?t=3176)
+-   [GeometryReader](https://youtu.be/SIYdYpPXil4?t=4207)
+
 [Slides](./documents/Slides/l3.pdf)
 
 ## Lecture 4: Grid + enum + Optionals
 
 [Video](https://youtu.be/eHEeWzFP6O4)
+
+-   [enum](https://youtu.be/eHEeWzFP6O4?t=1973)
+-   [Optional](https://youtu.be/eHEeWzFP6O4?t=2453)
 
 [Slides](./documents/Slides/l4.pdf)
 

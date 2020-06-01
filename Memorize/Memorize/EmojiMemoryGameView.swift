@@ -15,16 +15,13 @@ struct EmojiMemoryGameView: View {
     // You never access this "var body"
     // This "body" is called by the system when it needs to draw the View
     var body: some View {
-        HStack {
-            ForEach(viewModel.cards) { card in
-                CardView(card: card).onTapGesture {
-                    self.viewModel.choose(card: card)
-                }
-            }
+        Grid(viewModel.cards) { card in
+            CardView(card: card).onTapGesture {
+                self.viewModel.choose(card: card)
+            }.padding(5)
         }
         .padding()
         .foregroundColor(Color.orange)
-        .font(.largeTitle)
     }
 }
 
@@ -52,9 +49,9 @@ struct CardView: View {
             } else {
                 RoundedRectangle(cornerRadius: cornerRadius).fill()
             }
-        }.font(Font.system(size: fontSize(for: size)))
+        }
+        .font(Font.system(size: fontSize(for: size)))
     }
-    
 }
 
 struct ContentView_Previews: PreviewProvider {
