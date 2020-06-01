@@ -14,7 +14,6 @@ struct Grid<Item, ItemView>: View where Item: Identifiable, ItemView: View {
     var viewForItem: (Item) -> ItemView
     
     // @escaping: viewViewItem, is not used in the Initializer; this closure will be called out of Initializer (in the var body)
-    // https://youtu.be/eHEeWzFP6O4?t=515
     init(_ items: [Item], viewForItem: @escaping (Item) -> ItemView) {
         self.items = items
         self.viewForItem = viewForItem

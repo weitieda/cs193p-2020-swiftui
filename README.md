@@ -33,8 +33,10 @@
 
 [Video](https://youtu.be/eHEeWzFP6O4)
 
+-   [@esacping](https://www.youtube.com/watch?v=eHEeWzFP6O4&feature=youtu.be&t=515)
 -   [enum](https://youtu.be/eHEeWzFP6O4?t=1973)
 -   [Optional](https://youtu.be/eHEeWzFP6O4?t=2453)
+-   [Equatable](https://youtu.be/eHEeWzFP6O4?t=3808)
 
 [Slides](./documents/Slides/l4.pdf)
 
