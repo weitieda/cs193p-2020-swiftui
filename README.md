@@ -1,7 +1,5 @@
 ![image](header.png)
 
-# Stanford CS193p Spring 2020 (SwiftUI)
-
 ## Lecture 1: Course Logistics and Intro to SwiftUI
 
 [Video](https://youtu.be/jbtqIBpUG7g)
@@ -43,3 +41,11 @@
 [Reading 2](./documents/Readings/r2.pdf)
 
 [Assignment 2](./documents/Assignments/a2.pdf)
+
+## Lecture 5: ViewBuilder + Shape + ViewModifier
+
+[Video](https://www.youtube.com/watch?v=oDKDGCRdSHc)
+
+## Lecture 6: Animation
+
+[Video](https://www.youtube.com/watch?v=3krC2c56ceQ)
