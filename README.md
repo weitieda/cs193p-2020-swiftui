@@ -48,7 +48,7 @@
 
 -   [private(set)](https://youtu.be/oDKDGCRdSHc?t=282)
 -   [@ViewBuilder](https://youtu.be/oDKDGCRdSHc?t=725)
--   [Shage](https://youtu.be/oDKDGCRdSHc?t=1226)
+-   [Shape](https://youtu.be/oDKDGCRdSHc?t=1226)
 -   [ViewModifier](https://youtu.be/oDKDGCRdSHc?t=2555)
 
 ## Lecture 6: Animation
