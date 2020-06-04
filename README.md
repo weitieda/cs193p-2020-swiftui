@@ -46,6 +46,11 @@
 
 [Video](https://www.youtube.com/watch?v=oDKDGCRdSHc)
 
+-   [private(set)](https://youtu.be/oDKDGCRdSHc?t=282)
+-   [@ViewBuilder](https://youtu.be/oDKDGCRdSHc?t=725)
+-   [Shage](https://youtu.be/oDKDGCRdSHc?t=1226)
+-   [ViewModifier](https://youtu.be/oDKDGCRdSHc?t=2555)
+
 ## Lecture 6: Animation
 
 [Video](https://www.youtube.com/watch?v=3krC2c56ceQ)
