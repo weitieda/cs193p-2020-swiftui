@@ -54,3 +54,6 @@
 ## Lecture 6: Animation
 
 [Video](https://www.youtube.com/watch?v=3krC2c56ceQ)
+
+-   [Property Observer](https://youtu.be/3krC2c56ceQ?t=43)
+-   [@State](https://youtu.be/3krC2c56ceQ?t=119)
