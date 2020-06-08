@@ -51,9 +51,22 @@
 -   [Shape](https://youtu.be/oDKDGCRdSHc?t=1226)
 -   [ViewModifier](https://youtu.be/oDKDGCRdSHc?t=2555)
 
+[Slides](./documents/Slides/l5.pdf)
+
 ## Lecture 6: Animation
 
 [Video](https://www.youtube.com/watch?v=3krC2c56ceQ)
 
 -   [Property Observer](https://youtu.be/3krC2c56ceQ?t=43)
 -   [@State](https://youtu.be/3krC2c56ceQ?t=119)
+-   [Implicit("automatic") Animation](https://youtu.be/3krC2c56ceQ?t=716)
+-   [Explicit Animation](https://youtu.be/3krC2c56ceQ?t=1048)
+-   [Explicit Animation Demo](https://youtu.be/3krC2c56ceQ?t=3055)
+-   [Transitions](https://youtu.be/3krC2c56ceQ?t=1253)
+-   [AnimatableModifier](https://youtu.be/3krC2c56ceQ?t=3856)
+
+[Slides](./documents/Slides/l6.pdf)
+
+[Reading 3](./documents/Readings/r3.pdf)
+
+[Assignment 3](./documents/Assignments/a3.pdf)
