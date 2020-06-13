@@ -70,3 +70,11 @@
 [Reading 3](./documents/Readings/r3.pdf)
 
 [Assignment 3](./documents/Assignments/a3.pdf)
+
+## Lecture 7: Multithreading EmjojiArt
+
+[Video](https://youtu.be/tmx-OwkBWxA)
+
+-   [Multithreading](https://youtu.be/tmx-OwkBWxA?t=378)
+-   [Threads & Queues](https://youtu.be/tmx-OwkBWxA?t=474)
+-   [GCD](https://youtu.be/tmx-OwkBWxA?t=716)
