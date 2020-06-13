@@ -71,7 +71,7 @@
 
 [Assignment 3](./documents/Assignments/a3.pdf)
 
-## Lecture 7: Multithreading EmjojiArt
+## Lecture 7: Multithreading EmojiArt
 
 [Video](https://youtu.be/tmx-OwkBWxA)
 
