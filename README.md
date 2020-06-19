@@ -75,12 +75,12 @@
 
 [Video](https://youtu.be/tmx-OwkBWxA)
 
-[Slides](./documents/Slides/l7.pdf)
-
 -   [Multithreading](https://youtu.be/tmx-OwkBWxA?t=378)
 -   [Threads & Queues](https://youtu.be/tmx-OwkBWxA?t=474)
 -   [GCD](https://youtu.be/tmx-OwkBWxA?t=716)
 -   [fileprivate](https://youtu.be/tmx-OwkBWxA?t=2822)
+
+[Slides](./documents/Slides/l7.pdf)
 
 ## Lecture 8: Gestures JSON
 
