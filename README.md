@@ -75,7 +75,24 @@
 
 [Video](https://youtu.be/tmx-OwkBWxA)
 
+[Slides](./documents/Slides/l7.pdf)
+
 -   [Multithreading](https://youtu.be/tmx-OwkBWxA?t=378)
 -   [Threads & Queues](https://youtu.be/tmx-OwkBWxA?t=474)
 -   [GCD](https://youtu.be/tmx-OwkBWxA?t=716)
 -   [fileprivate](https://youtu.be/tmx-OwkBWxA?t=2822)
+
+## Lecture 8: Gestures JSON
+
+[Video](https://youtu.be/mz-rNLWJ0bk)
+
+-   [UserDefaults](https://youtu.be/mz-rNLWJ0bk?t=175)
+-   [Gestures](https://youtu.be/mz-rNLWJ0bk?t=526)
+-   [Discrete Gestures](https://youtu.be/mz-rNLWJ0bk?t=694)
+-   [Non-Discrete Gestures](https://youtu.be/mz-rNLWJ0bk?t=757)
+
+[Slides](./documents/Slides/l8.pdf)
+
+[Assignment 4](./documents/Assignments/a4.pdf)
+
+[Assignment 5](./documents/Assignments/a5.pdf)
