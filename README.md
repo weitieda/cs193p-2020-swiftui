@@ -90,6 +90,7 @@
 -   [Gestures](https://youtu.be/mz-rNLWJ0bk?t=526)
 -   [Discrete Gestures](https://youtu.be/mz-rNLWJ0bk?t=694)
 -   [Non-Discrete Gestures](https://youtu.be/mz-rNLWJ0bk?t=757)
+-   [User Defaults won't write to disk right away](https://youtu.be/mz-rNLWJ0bk?t=2397)
 
 [Slides](./documents/Slides/l8.pdf)
 
