@@ -97,3 +97,15 @@
 [Assignment 4](./documents/Assignments/a4.pdf)
 
 [Assignment 5](./documents/Assignments/a5.pdf)
+
+## Lecture 9: Data Flow
+
+[Video](https://youtu.be/0i152oA3T3s)
+
+-   [Property Wrappers](https://youtu.be/0i152oA3T3s?t=60)
+-   [@State](https://youtu.be/0i152oA3T3s?t=376)
+-   [@ObservedObject](https://youtu.be/0i152oA3T3s?t=443)
+-   [@Binding](https://youtu.be/0i152oA3T3s?t=492)
+-   [@EnvironmentObject](https://youtu.be/0i152oA3T3s?t=746)
+-   [@Environment](https://youtu.be/0i152oA3T3s?t=934)
+-   [@Publisher](https://youtu.be/0i152oA3T3s?t=1108)
