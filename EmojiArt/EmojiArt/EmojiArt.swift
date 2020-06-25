@@ -12,7 +12,9 @@ struct EmojiArt: Codable {
     var backgroundURL: URL?
     var emojis = [Emoji]()
     
-    var json: Data? { try? JSONEncoder().encode(self) }
+    var json: Data? {
+        try? JSONEncoder().encode(self)
+    }
     
     private var uniqueEmojiId = 0
     
