@@ -91,6 +91,7 @@
 -   [Discrete Gestures](https://youtu.be/mz-rNLWJ0bk?t=694)
 -   [Non-Discrete Gestures](https://youtu.be/mz-rNLWJ0bk?t=757)
 -   [User Defaults won't write to disk right away](https://youtu.be/mz-rNLWJ0bk?t=2397)
+-   [inout gesture state](https://youtu.be/mz-rNLWJ0bk?t=3906)
 
 [Slides](./documents/Slides/l8.pdf)
 
@@ -109,3 +110,6 @@
 -   [@EnvironmentObject](https://youtu.be/0i152oA3T3s?t=746)
 -   [@Environment](https://youtu.be/0i152oA3T3s?t=934)
 -   [@Publisher](https://youtu.be/0i152oA3T3s?t=1108)
+-   [.sink{}/AnyCancellable](https://youtu.be/0i152oA3T3s?t=2212)
+-   [.onReceive{}](https://youtu.be/0i152oA3T3s?t=2570)
+-   [Publisher + URLSession(dataTaskPublisher)](https://youtu.be/0i152oA3T3s?t=2698)
