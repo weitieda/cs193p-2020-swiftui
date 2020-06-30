@@ -113,3 +113,13 @@
 -   [.sink{}/AnyCancellable](https://youtu.be/0i152oA3T3s?t=2212)
 -   [.onReceive{}](https://youtu.be/0i152oA3T3s?t=2570)
 -   [Publisher + URLSession(dataTaskPublisher)](https://youtu.be/0i152oA3T3s?t=2698)
+
+[Slides](./documents/Slides/l9.pdf)
+
+## Lecture 10: Modal Presentation and Navigation
+
+[Video](https://youtu.be/CKexGQuIO7E)
+
+[Slides](./documents/Slides/l10.pdf)
+
+[Assignment 6](./documents/Assignments/a6.pdf)
