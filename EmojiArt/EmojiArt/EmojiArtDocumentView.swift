@@ -11,28 +11,23 @@ import SwiftUI
 struct EmojiArtDocumentView: View {
     
     @ObservedObject var document: EmojiArtDocument
+    @State private var chosenPalette: String
+    
+    private let defaultEmojiSize: CGFloat = 40
     
     @State private var steadyStateZoomScale: CGFloat = 1.0
     @GestureState private var gestureZoomScale: CGFloat = 1.0
-    
     @State private var steadyStatePanOffset: CGSize = .zero
     @GestureState private var gesturePanOffset: CGSize = .zero
     
-    @State private var chosenPalette: String = ""
-
-    var isLoading: Bool {
-        document.backgroundImage == nil && document.backgroundUrl != nil
-    }
+    private var isLoading: Bool { document.backgroundImage == nil && document.backgroundUrl != nil }
+    private var zoomScale: CGFloat { steadyStateZoomScale * gestureZoomScale }
+    private var panOffset: CGSize { (steadyStatePanOffset + gesturePanOffset) * zoomScale }
     
-    private var zoomScale: CGFloat {
-        steadyStateZoomScale * gestureZoomScale
+    init(document: EmojiArtDocument) {
+        self.document = document
+        _chosenPalette = State(wrappedValue: document.defaultPalette)
     }
-    
-    private var panOffset: CGSize {
-        (steadyStatePanOffset + gesturePanOffset) * zoomScale
-    }
-    
-    private let defaultEmojiSize: CGFloat = 40
     
     var body: some View {
         VStack {
@@ -46,7 +41,7 @@ struct EmojiArtDocumentView: View {
                                 .onDrag { NSItemProvider(object: emoji as NSString) }
                         }
                     }
-                }.onAppear { self.chosenPalette = self.document.defaultPalette }
+                }
             }
             
             GeometryReader { geometry in
