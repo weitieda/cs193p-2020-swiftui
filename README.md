@@ -124,7 +124,11 @@ Lecturer: **[Paul Hegarty](https://www.quora.com/Who-is-Paul-Hegarty-from-Stanfo
 
 -   [Initialize @State var in initializer](https://youtu.be/CKexGQuIO7E?t=213)
 
--   [share viewmodel via @EnviromentObject](https://youtu.be/CKexGQuIO7E?t=1011)
+-   [Share viewmodel via @EnviromentObject](https://youtu.be/CKexGQuIO7E?t=1011)
+
+-   [Form](https://youtu.be/CKexGQuIO7E?t=1648)
+
+-   [KeyPath](https://youtu.be/CKexGQuIO7E?t=2005)
 
 [Slides](./documents/Slides/l10.pdf)
 
