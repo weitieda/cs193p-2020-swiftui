@@ -130,6 +130,18 @@ Lecturer: **[Paul Hegarty](https://www.quora.com/Who-is-Paul-Hegarty-from-Stanfo
 
 -   [KeyPath](https://youtu.be/CKexGQuIO7E?t=2005)
 
+-   [Hashable/Equatable/Identifiable](https://youtu.be/CKexGQuIO7E?t=3278)
+
+-   [@EnvironmentObject](https://youtu.be/CKexGQuIO7E?t=3728)
+
+-   [List](https://youtu.be/CKexGQuIO7E?t=3830)
+
+-   [Inject EnvironmentObject](https://youtu.be/CKexGQuIO7E?t=3861)
+
+-   [Navigation Link](https://youtu.be/CKexGQuIO7E?t=4033)
+
+-   [Alert](https://youtu.be/CKexGQuIO7E?t=4785)
+
 [Slides](./documents/Slides/l10.pdf)
 
 [Assignment 6](./documents/Assignments/a6.pdf)
