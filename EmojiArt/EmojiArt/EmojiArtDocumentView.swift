@@ -91,8 +91,7 @@ struct EmojiArtDocumentView: View {
                             )
                     }
                 }))
-            }
-            .zIndex(-1)
+            }.zIndex(-1)
         }.alert(isPresented: self.$confirmBackgroundPaste) {
             Alert(
                 title: Text("Paste Background"),

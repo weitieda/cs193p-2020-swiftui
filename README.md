@@ -153,3 +153,9 @@ Lecturer: **[Paul Hegarty](https://www.quora.com/Who-is-Paul-Hegarty-from-Stanfo
 [Slides](./documents/Slides/l10.pdf)
 
 [Assignment 6](./documents/Assignments/a6.pdf)
+
+## Lecture 11: Enroute Picker
+
+[Video](https://youtu.be/fCfC6m7XUew)
+
+[Slides](./documents/Slides/l11.pdf)
