@@ -142,6 +142,14 @@ Lecturer: **[Paul Hegarty](https://www.quora.com/Who-is-Paul-Hegarty-from-Stanfo
 
 -   [Alert](https://youtu.be/CKexGQuIO7E?t=4785)
 
+-   [Swipe to Delete](https://youtu.be/CKexGQuIO7E?t=5331)
+
+-   [Edit Mode](https://youtu.be/CKexGQuIO7E?t=5467)
+
+-   [Set environment](https://youtu.be/CKexGQuIO7E?t=5663)
+
+-   [.zIndex()](https://youtu.be/CKexGQuIO7E?t=6102)
+
 [Slides](./documents/Slides/l10.pdf)
 
 [Assignment 6](./documents/Assignments/a6.pdf)
