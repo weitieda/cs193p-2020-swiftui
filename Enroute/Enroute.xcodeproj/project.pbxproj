@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA47A9B32469D48100C8E13C /* Airlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA47A9B12469D48100C8E13C /* Airlines.swift */; };
+		DA47A9B42469D48100C8E13C /* Airports.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA47A9B22469D48100C8E13C /* Airports.swift */; };
+		DA47A9B62469D48900C8E13C /* FlightFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA47A9B52469D48900C8E13C /* FlightFetcher.swift */; };
+		DAB658A42467944B00A0F2BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB658A32467944B00A0F2BB /* AppDelegate.swift */; };
+		DAB658A62467944B00A0F2BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB658A52467944B00A0F2BB /* SceneDelegate.swift */; };
+		DAB658AB2467944B00A0F2BB /* FlightsEnrouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB658AA2467944B00A0F2BB /* FlightsEnrouteView.swift */; };
+		DAB658AD2467944C00A0F2BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB658AC2467944C00A0F2BB /* Assets.xcassets */; };
+		DAB658B02467944C00A0F2BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB658AF2467944C00A0F2BB /* Preview Assets.xcassets */; };
+		DAB658B32467944C00A0F2BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB658B12467944C00A0F2BB /* LaunchScreen.storyboard */; };
+		DAB658BB2467949600A0F2BB /* FAFlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB658BA2467949600A0F2BB /* FAFlight.swift */; };
+		DAB658C2246794A800A0F2BB /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB658BC246794A700A0F2BB /* FoundationExtensions.swift */; };
+		DAB658C3246794A800A0F2BB /* FlightAware+AirportInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB658BD246794A700A0F2BB /* FlightAware+AirportInfo.swift */; };
+		DAB658C4246794A800A0F2BB /* FlightAware+AirlineInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB658BE246794A700A0F2BB /* FlightAware+AirlineInfo.swift */; };
+		DAB658C5246794A800A0F2BB /* FlightAware+Enroute.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB658BF246794A800A0F2BB /* FlightAware+Enroute.swift */; };
+		DAB658C6246794A800A0F2BB /* FlightAwareRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB658C0246794A800A0F2BB /* FlightAwareRequest.swift */; };
+		DAB658C7246794A800A0F2BB /* FlightSimulationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB658C1246794A800A0F2BB /* FlightSimulationData.swift */; };
+		EC48CF56246B289C00F59507 /* FilterFlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC48CF55246B289C00F59507 /* FilterFlights.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA47A9B12469D48100C8E13C /* Airlines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airlines.swift; sourceTree = "<group>"; };
+		DA47A9B22469D48100C8E13C /* Airports.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airports.swift; sourceTree = "<group>"; };
+		DA47A9B52469D48900C8E13C /* FlightFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightFetcher.swift; sourceTree = "<group>"; };
+		DAB658A02467944B00A0F2BB /* Enroute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enroute.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB658A32467944B00A0F2BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAB658A52467944B00A0F2BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DAB658AA2467944B00A0F2BB /* FlightsEnrouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsEnrouteView.swift; sourceTree = "<group>"; };
+		DAB658AC2467944C00A0F2BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB658AF2467944C00A0F2BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAB658B22467944C00A0F2BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAB658B42467944C00A0F2BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB658BA2467949600A0F2BB /* FAFlight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAFlight.swift; sourceTree = "<group>"; };
+		DAB658BC246794A700A0F2BB /* FoundationExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
+		DAB658BD246794A700A0F2BB /* FlightAware+AirportInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FlightAware+AirportInfo.swift"; sourceTree = "<group>"; };
+		DAB658BE246794A700A0F2BB /* FlightAware+AirlineInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FlightAware+AirlineInfo.swift"; sourceTree = "<group>"; };
+		DAB658BF246794A800A0F2BB /* FlightAware+Enroute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FlightAware+Enroute.swift"; sourceTree = "<group>"; };
+		DAB658C0246794A800A0F2BB /* FlightAwareRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightAwareRequest.swift; sourceTree = "<group>"; };
+		DAB658C1246794A800A0F2BB /* FlightSimulationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightSimulationData.swift; sourceTree = "<group>"; };
+		EC48CF55246B289C00F59507 /* FilterFlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterFlights.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB6589D2467944B00A0F2BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA47A9B92469E88100C8E13C /* FlightAware */ = {
+			isa = PBXGroup;
+			children = (
+				DAB658C0246794A800A0F2BB /* FlightAwareRequest.swift */,
+				DAB658BA2467949600A0F2BB /* FAFlight.swift */,
+				DAB658BF246794A800A0F2BB /* FlightAware+Enroute.swift */,
+				DAB658BE246794A700A0F2BB /* FlightAware+AirlineInfo.swift */,
+				DAB658BD246794A700A0F2BB /* FlightAware+AirportInfo.swift */,
+				DAB658C1246794A800A0F2BB /* FlightSimulationData.swift */,
+			);
+			path = FlightAware;
+			sourceTree = "<group>";
+		};
+		DAB658972467944B00A0F2BB = {
+			isa = PBXGroup;
+			children = (
+				DAB658A22467944B00A0F2BB /* Enroute */,
+				DAB658A12467944B00A0F2BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB658A12467944B00A0F2BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB658A02467944B00A0F2BB /* Enroute.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB658A22467944B00A0F2BB /* Enroute */ = {
+			isa = PBXGroup;
+			children = (
+				DAB658AA2467944B00A0F2BB /* FlightsEnrouteView.swift */,
+				EC48CF55246B289C00F59507 /* FilterFlights.swift */,
+				DA47A9B52469D48900C8E13C /* FlightFetcher.swift */,
+				DA47A9B22469D48100C8E13C /* Airports.swift */,
+				DA47A9B12469D48100C8E13C /* Airlines.swift */,
+				DA47A9B92469E88100C8E13C /* FlightAware */,
+				DAB658BC246794A700A0F2BB /* FoundationExtensions.swift */,
+				DAB658AC2467944C00A0F2BB /* Assets.xcassets */,
+				DAB658A32467944B00A0F2BB /* AppDelegate.swift */,
+				DAB658A52467944B00A0F2BB /* SceneDelegate.swift */,
+				DAB658B12467944C00A0F2BB /* LaunchScreen.storyboard */,
+				DAB658B42467944C00A0F2BB /* Info.plist */,
+				DAB658AE2467944C00A0F2BB /* Preview Content */,
+			);
+			path = Enroute;
+			sourceTree = "<group>";
+		};
+		DAB658AE2467944C00A0F2BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DAB658AF2467944C00A0F2BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB6589F2467944B00A0F2BB /* Enroute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB658B72467944C00A0F2BB /* Build configuration list for PBXNativeTarget "Enroute" */;
+			buildPhases = (
+				DAB6589C2467944B00A0F2BB /* Sources */,
+				DAB6589D2467944B00A0F2BB /* Frameworks */,
+				DAB6589E2467944B00A0F2BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Enroute;
+			productName = Enroute;
+			productReference = DAB658A02467944B00A0F2BB /* Enroute.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB658982467944B00A0F2BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Stanford University";
+				TargetAttributes = {
+					DAB6589F2467944B00A0F2BB = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DAB6589B2467944B00A0F2BB /* Build configuration list for PBXProject "Enroute" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB658972467944B00A0F2BB;
+			productRefGroup = DAB658A12467944B00A0F2BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB6589F2467944B00A0F2BB /* Enroute */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB6589E2467944B00A0F2BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB658B32467944C00A0F2BB /* LaunchScreen.storyboard in Resources */,
+				DAB658B02467944C00A0F2BB /* Preview Assets.xcassets in Resources */,
+				DAB658AD2467944C00A0F2BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB6589C2467944B00A0F2BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB658C6246794A800A0F2BB /* FlightAwareRequest.swift in Sources */,
+				DAB658C7246794A800A0F2BB /* FlightSimulationData.swift in Sources */,
+				DAB658C4246794A800A0F2BB /* FlightAware+AirlineInfo.swift in Sources */,
+				DAB658A42467944B00A0F2BB /* AppDelegate.swift in Sources */,
+				DAB658C2246794A800A0F2BB /* FoundationExtensions.swift in Sources */,
+				DAB658C3246794A800A0F2BB /* FlightAware+AirportInfo.swift in Sources */,
+				DAB658C5246794A800A0F2BB /* FlightAware+Enroute.swift in Sources */,
+				DA47A9B62469D48900C8E13C /* FlightFetcher.swift in Sources */,
+				DAB658AB2467944B00A0F2BB /* FlightsEnrouteView.swift in Sources */,
+				DAB658BB2467949600A0F2BB /* FAFlight.swift in Sources */,
+				DA47A9B32469D48100C8E13C /* Airlines.swift in Sources */,
+				DA47A9B42469D48100C8E13C /* Airports.swift in Sources */,
+				DAB658A62467944B00A0F2BB /* SceneDelegate.swift in Sources */,
+				EC48CF56246B289C00F59507 /* FilterFlights.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAB658B12467944C00A0F2BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB658B22467944C00A0F2BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB658B52467944C00A0F2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAB658B62467944C00A0F2BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB658B82467944C00A0F2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Enroute/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Enroute/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.instructor.Enroute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAB658B92467944C00A0F2BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Enroute/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Enroute/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.instructor.Enroute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB6589B2467944B00A0F2BB /* Build configuration list for PBXProject "Enroute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB658B52467944C00A0F2BB /* Debug */,
+				DAB658B62467944C00A0F2BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB658B72467944C00A0F2BB /* Build configuration list for PBXNativeTarget "Enroute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB658B82467944C00A0F2BB /* Debug */,
+				DAB658B92467944C00A0F2BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB658982467944B00A0F2BB /* Project object */;
+}

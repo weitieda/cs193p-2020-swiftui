@@ -158,4 +158,16 @@ Lecturer: **[Paul Hegarty](https://www.quora.com/Who-is-Paul-Hegarty-from-Stanfo
 
 [Video](https://youtu.be/fCfC6m7XUew)
 
+-   [Init a @Binding var(using \_var)](https://youtu.be/fCfC6m7XUew?t=1558)
+
+-   [Init @State with wrappedValue](https://youtu.be/fCfC6m7XUew?t=1770)
+
+-   [Picker](https://youtu.be/fCfC6m7XUew?t=1861)
+
+-   [Picker in Form](https://youtu.be/fCfC6m7XUew?t=2155)
+
+-   [Picker and .tag()](https://youtu.be/fCfC6m7XUew?t=2680)
+
+-   [Toggle in Form](https://youtu.be/fCfC6m7XUew?t=2904)
+
 [Slides](./documents/Slides/l11.pdf)
