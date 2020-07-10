@@ -12,6 +12,12 @@ Lecturer: **[Paul Hegarty](https://www.quora.com/Who-is-Paul-Hegarty-from-Stanfo
 
 [Video](https://youtu.be/4GjXq2Sr55Q)
 
+-   [MVVM](https://youtu.be/4GjXq2Sr55Q?t=40)
+-   [struct vs class](https://youtu.be/4GjXq2Sr55Q?t=1205)
+-   [Copy on write](https://youtu.be/4GjXq2Sr55Q?t=1248)
+-   [Generics](https://youtu.be/4GjXq2Sr55Q?t=1730)
+-   [Functions as Types](https://youtu.be/4GjXq2Sr55Q?t=1971)
+
 [Slides](./documents/Slides/l2.pdf)
 
 [Reading 1](./documents/Readings/r1.pdf)
