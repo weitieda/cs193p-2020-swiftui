@@ -177,3 +177,25 @@ Lecturer: **[Paul Hegarty](https://www.quora.com/Who-is-Paul-Hegarty-from-Stanfo
 -   [Toggle in Form](https://youtu.be/fCfC6m7XUew?t=2904)
 
 [Slides](./documents/Slides/l11.pdf)
+
+## Lecture 12: Core Data
+
+[Video](https://youtu.be/yOhyOpXvaec)
+
+-   [Core Data Features](https://youtu.be/yOhyOpXvaec?t=265)
+
+-   [SwiftUI Integration](https://youtu.be/yOhyOpXvaec?t=304)
+
+-   [Read/Write data](https://youtu.be/yOhyOpXvaec?t=737)
+
+-   [@FetchRequest](https://youtu.be/yOhyOpXvaec?t=1009)
+
+[Slides](./documents/Slides/l12.pdf)
+
+## Lecture 13: Persistence
+
+[Slides](./documents/Slides/l13.pdf)
+
+## Lecture 14: UIKit Integration
+
+[Slides](./documents/Slides/l14.pdf)
