@@ -190,6 +190,28 @@ Lecturer: **[Paul Hegarty](https://www.quora.com/Who-is-Paul-Hegarty-from-Stanfo
 
 -   [@FetchRequest](https://youtu.be/yOhyOpXvaec?t=1009)
 
+-   [Build Objects Graph in Core Data](https://youtu.be/yOhyOpXvaec?t=1610)
+
+-   [Fetch/Create Object](https://youtu.be/yOhyOpXvaec?t=2361)
+
+-   [NSPredicate](https://youtu.be/yOhyOpXvaec?t=2442)
+
+-   [NSSortDescriptor](https://youtu.be/yOhyOpXvaec?t=2521)
+
+-   [Deal with NSSet of one to many relationship](https://youtu.be/yOhyOpXvaec?t=3255)
+
+-   [Deal with non-optional value](https://youtu.be/yOhyOpXvaec?t=3499)
+
+-   [@FetchRequest demo](https://youtu.be/yOhyOpXvaec?t=3762)
+
+-   [Init @FetchRequest](https://youtu.be/yOhyOpXvaec?t=3926)
+
+-   [TRUEPREDICATE](https://youtu.be/yOhyOpXvaec?t=4884)
+
+-   [Crash Error: Context in environment is not connected to a persistent store coordinator](https://youtu.be/yOhyOpXvaec?t=5160)
+
+-   [Build a programmatic NSPredicate](https://youtu.be/yOhyOpXvaec?t=5406)
+
 [Slides](./documents/Slides/l12.pdf)
 
 ## Lecture 13: Persistence
