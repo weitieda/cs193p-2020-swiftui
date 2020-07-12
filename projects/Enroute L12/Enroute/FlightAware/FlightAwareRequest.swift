@@ -49,6 +49,8 @@ class FlightAwareRequest<Fetched> where Fetched: Codable, Fetched: Hashable
 
     // MARK: - Private Data
     
+    private var captureSimulationData = false
+    
     private var urlRequest: URLRequest? { Self.authorizedURLRequest(query: query) }
     private var fetchCancellable: AnyCancellable?
     private var fetchSequenceCount: Int = 0
@@ -95,6 +97,9 @@ class FlightAwareRequest<Fetched> where Fetched: Codable, Fetched: Hashable
                 if offset == 0 { fetchSequenceCount = 0 }
                 fetchCancellable = URLSession.shared.dataTaskPublisher(for: urlRequest)
                     .map { [weak self] data, response in
+                        if self?.captureSimulationData ?? false {
+                            flightSimulationData[self?.query ?? ""] = data.utf8
+                        }
                         return self?.decode(data) ?? []
                     }
                     .replaceError(with: [])

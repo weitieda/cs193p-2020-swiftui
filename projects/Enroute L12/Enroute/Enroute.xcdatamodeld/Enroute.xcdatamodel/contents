@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19G36e" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Airline" representedClassName="Airline" syncable="YES" codeGenerationType="class">
+        <attribute name="code_" optional="YES" attributeType="String"/>
+        <attribute name="name_" optional="YES" attributeType="String"/>
+        <attribute name="shortname_" optional="YES" attributeType="String"/>
+        <relationship name="flights_" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Flight" inverseName="airline_" inverseEntity="Flight"/>
+    </entity>
+    <entity name="Airport" representedClassName="Airport" syncable="YES" codeGenerationType="class">
+        <attribute name="icao_" optional="YES" attributeType="String"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="timezone" optional="YES" attributeType="String"/>
+        <relationship name="flightsFrom_" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Flight" inverseName="origin_" inverseEntity="Flight"/>
+        <relationship name="flightsTo_" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Flight" inverseName="destination_" inverseEntity="Flight"/>
+    </entity>
+    <entity name="Flight" representedClassName="Flight" syncable="YES" codeGenerationType="class">
+        <attribute name="aircraft" optional="YES" attributeType="String"/>
+        <attribute name="arrival_" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="departure" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="filed" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="ident_" optional="YES" attributeType="String"/>
+        <relationship name="airline_" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Airline" inverseName="flights_" inverseEntity="Airline"/>
+        <relationship name="destination_" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Airport" inverseName="flightsTo_" inverseEntity="Airport"/>
+        <relationship name="origin_" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Airport" inverseName="flightsFrom_" inverseEntity="Airport"/>
+    </entity>
+    <elements>
+        <element name="Airline" positionX="247.37109375" positionY="-31.171875" width="128" height="103"/>
+        <element name="Airport" positionX="-152.37890625" positionY="-48.71875" width="128" height="163"/>
+        <element name="Flight" positionX="37.0078125" positionY="-186.40625" width="128" height="163"/>
+    </elements>
+</model>
