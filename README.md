@@ -216,6 +216,16 @@ Lecturer: **[Paul Hegarty](https://www.quora.com/Who-is-Paul-Hegarty-from-Stanfo
 
 ## Lecture 13: Persistence
 
+[Video](https://youtu.be/fTNPRhGGP-0)
+
+-   [Persistence Overview](https://youtu.be/fTNPRhGGP-0?t=112)
+-   [Cloud Kit](https://youtu.be/fTNPRhGGP-0?t=332)
+-   [Create a record in Cloud Kit](https://youtu.be/fTNPRhGGP-0?t=840)
+-   [Query for records](https://youtu.be/fTNPRhGGP-0?t=1173)
+-   [File System](https://youtu.be/fTNPRhGGP-0?t=1319)
+-   [Sandbox](https://youtu.be/fTNPRhGGP-0?t=1452)
+-   [File Manager](https://youtu.be/fTNPRhGGP-0?t=1610)
+
 [Slides](./documents/Slides/l13.pdf)
 
 ## Lecture 14: UIKit Integration
