@@ -230,4 +230,6 @@ Lecturer: **[Paul Hegarty](https://www.quora.com/Who-is-Paul-Hegarty-from-Stanfo
 
 ## Lecture 14: UIKit Integration
 
+[Video](https://youtu.be/GRX5Dha_Clw)
+
 [Slides](./documents/Slides/l14.pdf)
